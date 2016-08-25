@@ -1,1 +1,57 @@
-/* Inserta tu código aqui */
+hr {
+  background-color: black;
+  height: 5px;
+  margin-left: 0%;
+  margin-right: 92%;
+}
+.fondo 	{
+	width: 200px;
+	height: 200px;
+	display:inline-block;
+	margin:10px;
+}
+.boxuno:before, .boxdos:before	{
+	content: "";
+	display: block;
+	clear:both;
+}
+.name	{
+	position: relative;
+	top:180px;
+	float:right;
+	color:white;
+}
+.uno	{
+	background-image:url(../img/profile-1.png);
+	float:left;
+
+}
+
+.dos	{
+	background-image:url(../img/profile-2.png);
+	float:left;
+}	
+
+.tres	{
+	background-image:url(../img/profile-3.png);
+	float:left;
+}
+
+
+.boxdos{
+	}
+
+.cuatro	{
+	background-image:url(../img/profile-4.png);
+	float:left;
+}
+
+.cinco	{
+	background-image:url(../img/profile-5.png);
+	float:left;
+}
+
+.seis	{
+	background-image:url(../img/profile-6.png);
+	float:left;	
+}
